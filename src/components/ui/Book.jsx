@@ -16,7 +16,7 @@ const Book = ({ book }) => {
         if (mountedRef.current === false) {
           setImg(image);
         }
-      }, 300);
+      }, 100);
     };
     return () => {
       mountedRef.current = false;
